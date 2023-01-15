@@ -25,10 +25,6 @@
     color: black;
 }
 
-.title :hover{
-    color: #FF900E;
-}
-
 .manubar{
     display: flex;
     list-style: none;
@@ -46,7 +42,6 @@ nav ul li a{
     text-decoration: none;
     color:#424242;
 }
-
 
 
 .brand-details {
@@ -67,7 +62,6 @@ nav ul li a{
     margin-bottom: 32px;
     margin-top: 30px;
     text-align: center;
-
 }
 
 .btn-explore {
@@ -101,8 +95,6 @@ nav ul li a{
 
 
 /* Header Section End */
-
-
 
 
 .feature-container {
@@ -158,10 +150,8 @@ nav ul li a{
     font-size: 2.5rem;
     font-weight: 700;
     border-left: 5px solid var(--btn-bg-color);
-    padding-left: 15px;
-    
+    padding-left: 15px; 
 }
-
 
 .feature-data {
     display: grid;
@@ -176,7 +166,6 @@ nav ul li a{
 .feature-banner img {
     height: 900px;
     width:600px;
-
 }
 
 /* ~~~~Experience button ~~~~~~  */
@@ -218,7 +207,6 @@ nav ul li a{
 
 /* ~~~~Experience button End ~~~~~~  */
 
-
 .Experience{
     margin-bottom: 130px;
 }
@@ -232,49 +220,54 @@ border: 1px solid orange;
 .facts-details{
     margin-left: 200px;
 }
+
 .facts-title{
     font-weight: bold;
     font-size: 45px;
     margin-bottom: 24px;
     
-    }
-    .facts-subtitle{
-    font-size: 16px;
-    color: #727272;
-    margin-bottom: 100px;
-    }
-    
-    /* about style */
-    .facts-us{
-        display: flex;
-        gap:124px ;
-        margin-bottom: 180px;
-        justify-content: center;
-    }
-    .facts{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+}
 
-        /* border: 1px solid #FF900E; */
-        border-radius: 8px;
-        padding: 45px 36px 59px 35px;
+.facts-subtitle{
+font-size: 16px;
+color: #727272;
+margin-bottom: 100px;
+}
+
+/* about style */
+.facts-us{
+    display: flex;
+    gap:124px ;
+    margin-bottom: 180px;
+    justify-content: center;
+}
+
+.facts{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     
-    }
-    .facts img{
-        margin-bottom: 10px;
-    }
-    .facts-number{
-    font-size: 45px;
-    font-weight: 700;
-    color: #424242;
-    }
-    .facts-name{
-    font-size: 20px;
-    font-weight: 700;
-    color: #727272;
-    }
+
+    /* border: 1px solid #FF900E; */
+    border-radius: 8px;
+    padding: 45px 36px 59px 35px;
+}
+
+.facts img{
+    margin-bottom: 10px;
+}
+
+.facts-number{
+font-size: 45px;
+font-weight: 700;
+color: #424242;
+}
+
+.facts-name{
+font-size: 20px;
+font-weight: 700;
+color: #727272;
+}
 
 /* Facts Section End */
 
@@ -318,12 +311,78 @@ border: 1px solid orange;
 }
 
 
+/* Extra section */
 
 
+.extra {
+    display: flex;
+    justify-content: space-around;
+    background:bisque;
+    color: black;
+    margin-top: 100px;
+    padding: 116px 0px 80px 0px;
+}
 
 
+.extra-left{
+    text-align:left;
+}
 
+.extra-right{
+    text-align:left;
+}
 
+.contact {
+    font-weight: 700;
+    font-size: 45px;
+    padding-bottom: 10px;
+}
+
+.subscribe {
+    font-weight: 600;
+    font-style: italic;
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+
+.subscribe-button{
+    position: absolute;
+    margin-top: 0px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    text-align:center;
+    width: 150px;
+    height: 50px;
+    color: white;
+    background-color: #FF900E;
+}
+
+.subscribe-button:hover{
+    color:darkcyan;
+    background-color:#FFFFFF;
+}
+
+.email {
+    color: #131313;
+    margin: 10px 0px;
+}
+
+.mobile {
+    margin-bottom: 20px;
+}
+
+input {
+    width: 250px;
+    height: 30px;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+/* Extra section end */
+
+/* Footer section Start */
 .footer{
     background-color:#FFF4E7; 
 }
@@ -334,3 +393,5 @@ border: 1px solid orange;
     color: #424242;
     padding: 50px 0;
 }
+
+/* Footer section End */
