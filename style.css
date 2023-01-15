@@ -1,0 +1,68 @@
+
+
+/* Header Section */
+
+.header{
+    background-color:bisque;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 200px 50px 200px;
+    align-items: center;
+}
+
+.project-title .title{
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: black;
+}
+
+.manu-bar ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+.brand-details {
+    justify-content: center;
+    text-align: center;
+}
+.brand-name {
+    color:black;
+    font-weight: 700;
+    font-size: 4rem;
+}
+.brand-info {
+    color:grey;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.btn-explore {
+    color:white;
+    background-color:#FF900E;
+    width: 180px;
+    height: 64px;
+    font-weight: 600;
+    font-size: 20px;
+    border-radius:5px;
+    border: 0;
+    margin-top: 32px;
+}
+
+
+.banner-img {
+    display: flex;
+    justify-content:center;
+    margin: 45px 0;
+    
+}
+.banner-img img{
+    width:80vw;
+    margin-bottom: 50px;
+}
+
+/* Header Section End */
