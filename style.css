@@ -25,6 +25,10 @@
     color: black;
 }
 
+.title :hover{
+    color: #FF900E;
+}
+
 .manubar{
     display: flex;
     list-style: none;
@@ -79,7 +83,10 @@ nav ul li a{
     text-align: center;
     border: none;
 }
-
+.btn-explore:hover{
+    color:#FF900E;
+    background-color: #FFFFFF;
+}
 .banner-img {
     display: flex;
     justify-content:center;
@@ -94,6 +101,9 @@ nav ul li a{
 
 
 /* Header Section End */
+
+
+
 
 .feature-container {
     width: 85%;
@@ -129,14 +139,183 @@ nav ul li a{
     color: #FF900E;
 }
 
-.feature-info-2{
 
+/* jhsijfbhsaig */
+.feature-details-container {
+    display: flex;
+    width: 90%;
+    margin-left: 50px;
+    justify-content: center;
+    gap: 100px;
+    margin-top: 50px;
+}
+.feature-details {
+    width: 100%;
+    max-width:580px;
+}
+.feature-motto .section-title {
+    color: var(--dark-1);
+    font-size: 2.5rem;
+    font-weight: 700;
+    border-left: 5px solid var(--btn-bg-color);
+    padding-left: 15px;
+    
 }
 
 
+.feature-data {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+}
+.feature-data .data {
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 30px;
+}
+.feature-banner img {
+    height: 900px;
+    width:600px;
+
+}
+
+/* ~~~~Experience button ~~~~~~  */
+.Experience{
+    display: flex;
+    align-items: flex-end;
+    width: 708px;
+    height: 972px;
+    background-repeat: no-repeat;
+    background-image: url(images/architect.png);
+    
+}
+.btn-experience{
+    font-weight: 900;
+    font-size: 42px;
+    padding: 40px 37px 40px 37px;
+    background-color: #FF900E;
+    border-radius: 8px;
+    color: #FFFFFF;
+    text-align: center;
+    border: none;
+    margin-left: -80px ;
+    margin-bottom: -70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-experience:hover{
+    color:#FF900E;
+    background-color:#FFFFFF;
+}
+
+.btn-exp-experience{
+    font-size: 16px;
+    font-weight: 400;
+}
 
 
+/* ~~~~Experience button End ~~~~~~  */
 
+
+.Experience{
+    margin-bottom: 130px;
+}
+
+/* Facts Section Start */
+
+.facts{
+border: 1px solid orange;    
+
+}
+.facts-details{
+    margin-left: 200px;
+}
+.facts-title{
+    font-weight: bold;
+    font-size: 45px;
+    margin-bottom: 24px;
+    
+    }
+    .facts-subtitle{
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 100px;
+    }
+    
+    /* about style */
+    .facts-us{
+        display: flex;
+        gap:124px ;
+        margin-bottom: 180px;
+        justify-content: center;
+    }
+    .facts{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+        /* border: 1px solid #FF900E; */
+        border-radius: 8px;
+        padding: 45px 36px 59px 35px;
+    
+    }
+    .facts img{
+        margin-bottom: 10px;
+    }
+    .facts-number{
+    font-size: 45px;
+    font-weight: 700;
+    color: #424242;
+    }
+    .facts-name{
+    font-size: 20px;
+    font-weight: 700;
+    color: #727272;
+    }
+
+/* Facts Section End */
+
+
+/* Sponsors List */
+
+.sponsors-container{
+    /* margin-bottom: 130px; */
+
+}
+
+.sponsors-title{
+    font-size: 45px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 24px;
+}
+.sponsors-subtitle{
+    font-size: 16px;
+    color: #727272;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.sponsors-list{
+    display: flex;
+    gap: 150px;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 100px;
+    
+}
+
+.sponsor{
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.sponsor:hover{
+    filter: grayscale(0%);
+}
 
 
 
