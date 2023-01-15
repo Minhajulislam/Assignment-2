@@ -9,36 +9,55 @@
 .header-container{
     display: flex;
     justify-content: space-between;
-    padding: 50px 200px 50px 200px;
+    padding: 50px 100px 50px 100px;
     align-items: center;
 }
 
-.project-title .title{
+.title{
     font-weight: 700;
-    font-size: 2.5rem;
+    font-size: 45px;
     color: black;
 }
 
-.manu-bar ul{
+.manubar{
     display: flex;
     list-style: none;
-    gap: 25px;
+    gap: 50px;
 }
+
+nav ul{
+    display: flex;
+    gap: 50px;
+    list-style: none;
+    font-size: 18px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:darkgray;
+}
+
+
 
 .brand-details {
     justify-content: center;
     text-align: center;
 }
 .brand-name {
-    color:black;
+    color:#131313;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 64px;
+
 }
 .brand-info {
-    color:grey;
+    color:#727272;
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    /* line-height: 26px; */
+    margin-bottom: 32px;
+    margin-top: 30px;
+    text-align: center;
+
 }
 
 .btn-explore {
@@ -51,12 +70,14 @@
     border-radius:5px;
     border: 0;
     margin-top: 32px;
+    text-align: center;
+    border: none;
 }
-
 
 .banner-img {
     display: flex;
     justify-content:center;
+    margin:100px 100px 85px 100px;
     margin: 45px 0;
     
 }
