@@ -274,9 +274,7 @@ color: #727272;
 
 /* Sponsors List */
 
-.sponsors-container{
 
-}
 
 .sponsors-title{
     font-size: 45px;
@@ -639,10 +637,7 @@ input {
         
         /* Sponsors List */
         
-        .sponsors-container{
-            /* margin-bottom: 130px; */
-        
-        }
+       
         
         .sponsors-title{
             font-size: 45px;
@@ -753,11 +748,10 @@ input {
         .footer{
             background-color:#FFF4E7; 
         }
-        .footer-info{
-            text-align: center;
-            font-style: normal;
-            font-size: 20px;
-            color: #424242;
-            padding: px 0;
-        }
-        
+.footer-info{
+    text-align: center;
+    font-style: normal;
+    font-size: 20px;
+    color: #424242;
+    padding: px 0;
+}
